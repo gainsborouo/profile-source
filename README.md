@@ -4,4 +4,4 @@
 ## Description
 All information about userwei's personal websites, projects, and contact details.
 
-![Main Page](https://github.com/user-attachments/assets/84339e27-ad0c-41e6-9eb2-cd91cb846221)
+![Main Page](https://github.com/user-attachments/assets/e84cce7e-3409-4872-a1a2-69163ded60f9)
