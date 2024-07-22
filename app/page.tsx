@@ -7,17 +7,19 @@ import "./page.css";
 export default function Home() {
   return (
     <>
-      <header className="profile-header">
+      <header className="home-header">
         <div className="mx-auto max-w-5xl py-12 md:py-16 lg:py-20 px-5">
           <div className="flex flex-col gap-7 items-start">
-            <Image
-              className="rounded-full w-32 h-32 md:w-40 md:h-40 lg:w-44 lg:h-44"
-              src="/images/avatar.webp"
-              width={176}
-              height={176}
-              alt="avatar"
-              priority
-            />
+            <div className="relative w-32 h-32 md:w-40 md:h-40 lg:w-44 lg:h-44">
+              <Image
+                fill
+                className="rounded-full"
+                src="/images/avatar.webp"
+                alt="avatar"
+                priority
+              />
+            </div>
+
             <div className="flex flex-col gap-3 md:gap-4 lg:gap-5">
               <h1 className="text-xl md:text-2xl lg:text-3xl font-extrabold text-white">
                 Ting-Wei Chou
@@ -53,7 +55,7 @@ export default function Home() {
           </div>
         </div>
       </header>
-      <main className="profile-main bg-neutral-500">
+      <main className="home-main bg-neutral-500">
         <div className="mx-auto max-w-5xl py-8 md:py-12 lg:py-16 px-5">
           <div className="flex flex-col gap-6 md:gap-10 lg:gap-12">
             {/* Links */}
@@ -177,12 +179,15 @@ export default function Home() {
                   href="https://blog.userwei.com/"
                   className="bg-neutral-300 hover:bg-neutral-400 active:bg-neutral-500 text-neutral-700 rounded-lg lg:rounded-xl px-5 py-3 flex items-center gap-5"
                 >
-                  {/* <img
-                    src={blogFavicon}
-                    alt="blogFavicon"
-                    className="w-5 h-5 lg:w-6 lg:h-6"
-                    loading="lazy"
-                  ></img> */}
+                  <div className="relative w-5 h-5 lg:w-6 lg:h-6">
+                    <Image
+                      fill
+                      src="/images/blogFavicon.png"
+                      alt="blogFavicon"
+                      
+                      priority
+                    />
+                  </div>
                   <div className="flex flex-col">
                     <div className="font-extrabold text-sm md:text-base lg:text-lg">
                       userwei&apos;s Blog
@@ -208,12 +213,14 @@ export default function Home() {
                   href="https://note.userwei.com/"
                   className="bg-neutral-300 hover:bg-neutral-400 active:bg-neutral-500 text-neutral-700 rounded-lg lg:rounded-xl px-5 py-3 flex items-center gap-5"
                 >
-                  {/* <img
-                    src={noteFavicon}
-                    alt="noteFavicon"
-                    className="w-5 h-5 lg:w-6 lg:h-6"
-                    loading="lazy"
-                  ></img> */}
+                  <div className="relative w-5 h-5 lg:w-6 lg:h-6">
+                    <Image
+                      fill
+                      src="/images/noteFavicon.png"
+                      alt="noteFavicon"
+                      priority
+                    />
+                  </div>
                   <div className="flex flex-col">
                     <div className="font-extrabold text-sm md:text-base lg:text-lg">
                       userwei&apos;s Note
@@ -268,12 +275,15 @@ export default function Home() {
                   href="https://github.com/chou-ting-wei/NYCU_Service-Learning-Nanao"
                   className="bg-neutral-300 hover:bg-neutral-400 active:bg-neutral-500 flex flex-col rounded-lg lg:rounded-xl overflow-hidden"
                 >
-                  {/* <img
-                    src={painSystemImage}
-                    alt="painSystem"
-                    className="h-28 md:h-32 lg:h-36 object-cover"
-                    loading="lazy"
-                  ></img> */}
+                  <div className="relative h-28 md:h-32 lg:h-36">
+                    <Image
+                      fill
+                      className="object-cover"
+                      src="/images/painSystem.webp"
+                      alt="painSystem"
+                      priority
+                    />
+                  </div>
                   <div className="text-neutral-700 px-5 py-3 flex items-center gap-5">
                     <div className="flex flex-col">
                       <div className="font-extrabold text-sm md:text-base lg:text-lg">

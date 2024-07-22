@@ -1,6 +1,7 @@
 import Link from "next/link";
 
 import Button from "@/app/components/button";
+import Footer from "@/app/components/footer";
 
 export default function NotFound() {
   return (
@@ -41,6 +42,7 @@ export default function NotFound() {
           </div>
         </div>
       </div>
+      <Footer />
     </>
   );
 }
