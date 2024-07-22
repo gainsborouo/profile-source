@@ -13,6 +13,7 @@ export const metadata: Metadata = {
     url: "https://profile.userwei.com",
     title: "userwei's Profile",
     description: "All information about userwei's personal websites, projects, and contact details.",
+    siteName: "userwei's Profile",
   }
 };
 
