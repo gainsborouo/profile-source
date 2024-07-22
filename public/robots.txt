@@ -1,0 +1,13 @@
+#    _____
+#   | o o |
+#  (|  ^  |)
+#   |  -  |
+#   | [_] |
+#   |     |
+#   |_____|
+#    |   | 
+
+User-agent: *
+Disallow: 
+
+Sitemap: https://profile.userwei.com/sitemap.xml
