@@ -1,4 +1,5 @@
 import Image from "next/image";
+
 import Button from "@/app/components/button";
 import Footer from "@/app/components/footer";
 
