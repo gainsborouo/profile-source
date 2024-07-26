@@ -1,7 +1,7 @@
 import Link from "next/link";
 
-import Button from "@/app/components/button";
-import Footer from "@/app/components/footer";
+import Button from "@/components/button";
+import Footer from "@/components/footer";
 
 export default function NotFound() {
   return (

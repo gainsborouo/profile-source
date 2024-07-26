@@ -1,7 +1,7 @@
 import Image from "next/image";
 
-import Button from "@/app/components/button";
-import Footer from "@/app/components/footer";
+import Button from "@/components/button";
+import Footer from "@/components/footer";
 
 import "./page.css";
 
@@ -185,7 +185,6 @@ export default function Home() {
                       fill
                       src="/images/blogFavicon.png"
                       alt="blogFavicon"
-                      
                       priority
                     />
                   </div>
