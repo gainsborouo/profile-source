@@ -15,7 +15,7 @@ export default function Home() {
               <Image
                 fill
                 className="rounded-full"
-                src="/images/avatar.webp"
+                src="/images/avatar.png"
                 alt="avatar"
                 priority
               />
