@@ -8,6 +8,8 @@
 #    |   | 
 
 User-agent: *
-Disallow: 
+Disallow: /icon.ico*
+Disallow: /images/*
+Disallow: /manifest.webmanifest
 
 Sitemap: https://profile.userwei.com/sitemap.xml
