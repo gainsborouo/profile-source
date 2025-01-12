@@ -82,7 +82,7 @@ export default function Home() {
               </div>
               <div className="grid gap-3 md:gap-4 lg:gap-5 md:grid-cols-2 lg:grid-cols-3">
                 <a
-                  href="https://github.com/chou-ting-wei"
+                  href="https://github.com/gainsborouo"
                   className="bg-neutral-300 hover:bg-neutral-400 active:bg-neutral-500 text-neutral-700 rounded-lg lg:rounded-xl px-5 py-3 flex items-center gap-5"
                 >
                   <svg
@@ -101,7 +101,7 @@ export default function Home() {
                       GitHub
                     </div>
                     <div className="text-xs md:text-xm lg:text-base">
-                      @chou-ting-wei
+                      @gainsborouo
                     </div>
                   </div>
                 </a>
@@ -272,7 +272,7 @@ export default function Home() {
               </div>
               <div className="grid gap-3 md:gap-4 lg:gap-5 md:grid-cols-2 lg:grid-cols-3">
                 <a
-                  href="https://github.com/chou-ting-wei/NYCU_Service-Learning-Nanao"
+                  href="https://github.com/gainsborouo/NYCU_Service-Learning-Nanao"
                   className="bg-neutral-300 hover:bg-neutral-400 active:bg-neutral-500 flex flex-col rounded-lg lg:rounded-xl overflow-hidden"
                 >
                   <div className="relative h-28 md:h-32 lg:h-36">
