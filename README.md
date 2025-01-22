@@ -2,6 +2,6 @@
 > Framework: Next.js  
 
 ## Description
-All information about userwei's personal websites, projects, and contact details.
+All information about my personal websites, projects, and contact details.
 
-![Main Page](https://github.com/user-attachments/assets/e84cce7e-3409-4872-a1a2-69163ded60f9)
+![Main Page](https://github.com/user-attachments/assets/28f57276-6ee1-467c-a6a6-4d5183224d01)
