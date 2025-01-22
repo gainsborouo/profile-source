@@ -315,7 +315,7 @@ export default function Home() {
                     <Image
                       fill
                       className="object-cover"
-                      src="/images/gdscWebsite.png"
+                      src="/images/gdscWebsite.webp"
                       alt="painSystem"
                       priority
                     />
