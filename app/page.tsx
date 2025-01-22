@@ -272,7 +272,7 @@ export default function Home() {
               </div>
               <div className="grid gap-3 md:gap-4 lg:gap-5 md:grid-cols-2 lg:grid-cols-3">
                 <a
-                  href="https://github.com/gainsborouo/NYCU_Service-Learning-Nanao"
+                  href="https://github.com/NYCU-Service-Learning/nanao-system"
                   className="bg-neutral-300 hover:bg-neutral-400 active:bg-neutral-500 flex flex-col rounded-lg lg:rounded-xl overflow-hidden"
                 >
                   <div className="relative h-28 md:h-32 lg:h-36">
