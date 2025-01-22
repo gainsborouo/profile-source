@@ -5,7 +5,7 @@ const Footer: React.FC = () => {
     <footer className="mt-auto">
       <div className="flex flex-col items-center p-4">
         <div className="font-bold text-gray-400 text-xs md:text-sm">
-          © 2024 userwei&apos;s Profile
+          © {new Date().getFullYear()} userwei&apos;s Profile
         </div>
       </div>
     </footer>
